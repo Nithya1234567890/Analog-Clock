@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: block;
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.stick {
+    position: absolute;
+    top: 87px;
+    background-color: black;
+    border-radius: 10px;
+    transition: all;
+    transform-origin: bottom;
+}
+
+#hour {
+    top: 130px;
+    left: 48.5%;
+    width: 11px;
+    height: 120px;
+}
+
+#sec {
+    width: 4px;
+    height: 162px;
+    left: 49.3%;
+}
+#min{
+    top: 105px;
+    width: 8px;
+height: 145px;
+left: 49%;
+}
